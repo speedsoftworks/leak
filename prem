@@ -2,10 +2,8 @@ local tpsSystem = workspace:FindFirstChild("TPSSystem")
 local touchline = workspace:FindFirstChild("Footballs")
 
 if tpsSystem then
-    getgenv().SCRIPT_KEY = "6f5b27a4-b0cf-4d33-853b-457d3eaa0e7d"
     loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/ed01fb7717d48fbc5c6f1e2978fd38b2085414099d428d0e07d9e290f712e9b2/download"))()
 
 elseif touchline then
-    getgenv().SCRIPT_KEY = "e4fe7e82-b520-4d88-9fed-45f336f18153"
     loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/0278a06d82157ec1327b3ee5bd4a88be8d04a89d6ee5c1065bc71b9984edaabd/download"))()
 end
