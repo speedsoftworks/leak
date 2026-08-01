@@ -3,9 +3,9 @@ local tpsSystem = workspace:FindFirstChild("TPSSystem")
 
 
 if tpsSystem then
-    getgenv().SCRIPT_KEY = "d57b6260-6a09-4393-b0bd-b3f98967f114"
+    getgenv().SCRIPT_KEY = "6f5b27a4-b0cf-4d33-853b-457d3eaa0e7d"
     loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/ed01fb7717d48fbc5c6f1e2978fd38b2085414099d428d0e07d9e290f712e9b2/download"))()
 else
-    getgenv().SCRIPT_KEY = "6a961a6d-88e4-47cc-8cb6-d51737052d52"
+    getgenv().SCRIPT_KEY = "dfd663c1-0bf5-454e-be6d-b71210337cb0"
     loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/6122d2c42fcc90feab359c2731e16aa9dac48b61d234a2b789903415affd64f4/download"))()
 end
