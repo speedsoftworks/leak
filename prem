@@ -1,5 +1,5 @@
 local tpsSystem = workspace:FindFirstChild("TPSSystem")
-
+local touchline = workspace:FindFirstChild("Footballs")
 
 
 if tpsSystem then
